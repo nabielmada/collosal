@@ -1,0 +1,430 @@
+/*  CREATED BY NABIELMADA
+    Github: nabielmada
+*/
+
+/* Plugins */
+@import "bootstrap/scss/bootstrap";
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+/* Global Settings */
+// :root {
+//     background-color: #0B0B22;
+// }
+
+// #app{
+//     background-color: #0B0B22;
+//     font-family: 'Source Sans 3', sans-serif;
+//     margin-top: 20px;
+// }
+
+body{
+    background-color: #0B0B22;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-top: 20px;
+}
+
+/* Text Styles */
+.section-badge{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // SemiBold
+}
+
+.section-paragraph{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Medium
+}
+
+.page-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    // Bold
+}
+
+.page-desc{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Medium
+}
+
+.section-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    // Bold
+}
+
+.section-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    // Bold
+}
+
+.card-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    // Bold
+}
+
+.card-paragraph{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    // Medium
+}
+
+.pricing-price{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    // Bold
+}
+
+.pricing-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Bold
+}
+
+.pricing-detail{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Medium
+}
+
+.form-label{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    // Regular
+}
+
+.icon-list-value{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    // Bold
+}
+
+.icon-list-label{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Medium
+}
+
+.project-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    // Bold
+}
+
+.project-desc{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Regular
+}
+
+.small-card-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // SemiBold
+}
+
+.small-card-desc{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    // Regular
+}
+
+.features-card-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    // Bold
+}
+
+.features-card-desc{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Medium
+}
+
+.faq-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    // Bold
+}
+
+.faq-desc{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Medium
+}
+
+.statistic-value{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    // Bold
+}
+
+.statistic-label{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Bold
+}
+
+.testi-company{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    // Medium
+}
+
+.testi-name{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    // Bold
+}
+
+.testi-desc{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Medium
+}
+
+.team-name{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    // Bold
+}
+
+.team-job{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    // Medium
+}
+
+.blog-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    // Bold
+}
+
+.blog-lead{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    // Medium
+}
+
+.blog-meta{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    // Regular
+}
+
+.project-detail-label{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    // SemiBold
+}
+
+.project-detail-value{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // SemiBold
+}
+
+.page-content{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Medium
+}
+
+.page-subtitle{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    // Bold
+}
+
+.blog-headline{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    // Medium
+}
+
+.blog-content{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Medium
+}
+
+.blog-subtitle{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    // Bold
+}
+
+.blog-quote{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    // Medium
+}
+
+.blog-quote-name{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    // Medium
+}
+
+.author-name{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    // SemiBold
+}
+
+.author-job{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    // SemiBold
+}
+
+.author-bio{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Medium
+}
+
+.comment-time{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    // Regular
+}
+
+.comment-name{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    // SemiBold
+}
+
+.comment-content{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    // Medium
+}
+
+/* Colour Styles */
+.color-card-dark{
+    color: #161629;
+}
+
+.color-primary{
+    color: #6016FC;
+}
+
+.color-green{
+    color: #16FCD2;
+}
+
+.color-muted{
+    color: #FFFFFF;
+    opacity: 60%;
+}
+
+.color-highlight{
+    color: #221048;
+}
+
+.color-light{
+    color: #FFFFFF;
+    opacity: 5%;
+}
+
+.color-button-light{
+    background-color: #ffffff13;
+    color: white;
+}
+
+.color-button-light:hover{
+    background-color: #ffffff09;
+    color: white;
+}
+
+.color-border-light{
+    color: #FFFFFF;
+    opacity: 10%;
+}
+
+.color-primary-light{
+    color: #6016FC;
+    opacity: 10%;
+}
+
+.color-dark{
+    color: #0B0B22;
+}
+
+.color-red{
+    color: #FC165B;
+}
+
+.color-nav{
+    color: #FFFFFFCC;
+}
+
+.color-nav:hover{
+    color: #FFF;
+}
+
+/* Background Colour Styles */
+.bg-card-dark{
+    color: #161629 !important;
+}
+
+.bg-primary{
+    color: #6016FC !important;
+}
+
+.bg-green{
+    color: #16FCD2 !important;
+}
+
+.bg-muted{
+    color: #FFFFFF !important;
+    opacity: 60%;
+}
+
+.bg-highlight{
+    color: #221048 !important;
+}
+
+.bg-light{
+    color: #FFFFFF !important;
+    opacity: 5%;
+}
+
+.bg-button-light{
+    color: #FFFFFF !important;
+    opacity: 10%;
+}
+
+.bg-border-light{
+    color: #FFFFFF !important;
+    opacity: 10%;
+}
+
+.bg-primary-light{
+    color: #6016FC !important;
+    opacity: 10%;
+}
+
+.bg-dark{
+    color: #0B0B22 !important;
+}
+
+.bg-red{
+    color: #FC165B !important;
+}
+
+/* Set */
+.space{
+  margin: 100px 0px;
+}
