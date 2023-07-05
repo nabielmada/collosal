@@ -1,12 +1,12 @@
 <template>
     <div>
-        <section id = "navbar">
+        <section id = "navbar" class = "container">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <div class="h4">
                            <div class = "d-flex">
-                                <span><img src = "./../assets/images/logo/logo-collosal.png" class = "img-fluid me-4" alt = "logo-collosal" loading = "lazy" /></span>
+                                <span><img src = "~/assets/images/logo/logo-collosal.png" class = "img-fluid me-4" alt = "logo-collosal" loading = "lazy" /></span>
                                 <span class="text-white">Collosal.</span>
                            </div>
                         </div>
