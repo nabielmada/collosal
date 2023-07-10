@@ -11,21 +11,15 @@
 /* Icons */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
-/* Global Settings */
-// :root {
-//     background-color: #0B0B22;
-// }
-
-// #app{
-//     background-color: #0B0B22;
-//     font-family: 'Source Sans 3', sans-serif;
-//     margin-top: 20px;
-// }
-
-body{
-    background-color: #0B0B22;
+body{ 
     font-family: 'Source Sans 3', sans-serif;
     margin-top: 20px;
+    background: url("/assets/images/bg/background.png");
+    background-size: cover;
+}
+
+#collosal{
+  margin-bottom: 100px;
 }
 
 /* Text Styles */
@@ -338,16 +332,6 @@ body{
     opacity: 5%;
 }
 
-.color-button-light{
-    background-color: #ffffff13;
-    color: white;
-}
-
-.color-button-light:hover{
-    background-color: #ffffff09;
-    color: white;
-}
-
 .color-border-light{
     color: #FFFFFF;
     opacity: 10%;
@@ -397,13 +381,7 @@ body{
 }
 
 .bg-light{
-    color: #FFFFFF !important;
-    opacity: 5%;
-}
-
-.bg-button-light{
-    color: #FFFFFF !important;
-    opacity: 10%;
+    background-color: #ffffff08 !important;
 }
 
 .bg-border-light{
@@ -422,6 +400,27 @@ body{
 
 .bg-red{
     color: #FC165B !important;
+}
+
+/* Button Styles */
+.color-button-primary{
+    background-color: #6016FC !important;
+    color: white;
+}
+
+.color-button-primary:hover{
+    background-color: #5613e8 !important;
+    color: white;
+}
+
+.color-button-light{
+    background-color: #ffffff13;
+    color: white;
+}
+
+.color-button-light:hover{
+    background-color: #ffffff09;
+    color: white;
 }
 
 /* Set */

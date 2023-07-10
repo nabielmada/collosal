@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section id = "navbar" class = "container">
+        <section id = "navbar">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">

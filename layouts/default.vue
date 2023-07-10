@@ -1,6 +1,8 @@
 <template>
-    <Navbar />
-    <NuxtPage />
+    <section id = "collosal" class = "container">
+        <Navbar />
+        <NuxtPage />
+    </section>
 </template>
 
 <script>
