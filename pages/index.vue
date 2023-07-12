@@ -65,7 +65,7 @@
 
       <!-- Sponsored -->
       <div class = "space">
-        <hr class = "rectangle">
+        <hr />
           <div class = "d-flex justify-content-evenly my-4">
             <div>
               <img src = "/assets/images/logo/logo-github.png" class = "img-fluid" alt = "logo-github" loading = "lazy">
@@ -83,7 +83,7 @@
               <img src = "/assets/images/logo/logo-facebook.png" class = "img-fluid" alt = "logo-facebook" loading = "lazy">
             </div>
           </div>
-        <hr class = "rectangle">
+        <hr />
       </div>
 
     </section>
