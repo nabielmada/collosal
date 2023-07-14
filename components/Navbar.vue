@@ -1,7 +1,7 @@
 <template>
     <div>
         <section id = "navbar">
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-lg nav-underline">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <div class="h4">

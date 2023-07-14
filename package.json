@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "collosal-website",
   "private": true,
   "scripts": {
     "build": "nuxt build",
